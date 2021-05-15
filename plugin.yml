@@ -1,0 +1,19 @@
+name: PocketCSwitch
+main: xyz.champrin.pocketcswitch.PocketCSwitch
+version: "1.0.0"
+api: ["1.0.8","1.0.9","1.1.0"]
+
+author: CaiBin,Spiderman
+description: "PocketCSwitch 口袋CSwitch游戏机"
+
+commands:
+  pcs:
+    permission: PocketCSwitch.command.true
+    usage: "/pcs"
+    description: "§ePocketCSwitch Helper"
+    aliases: []
+permissions:
+  PocketCSwitch.command.op:
+    default: op
+  PocketCSwitch.command.true:
+    default: true
